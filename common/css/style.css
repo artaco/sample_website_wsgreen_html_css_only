@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #444;
+}
+
+main {
+  width: 980px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  user-select: none;
+}
+
+dd {
+  user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  user-select: none;
+}
+
+a {
+  user-select: none;
+}
+
+p {
+  user-select: none;
+}
+
+small {
+  user-select: none;
+}
+
+.anchor-off {
+  pointer-events: none;
+}
