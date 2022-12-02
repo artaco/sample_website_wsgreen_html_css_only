@@ -77,25 +77,19 @@
 }
 
 .topic {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 40px;
   margin: 45px 0 80px 0;
   width: 980px;
 }
 
 .topic_anchor {
-  width: 300px;
   text-decoration: none;
   color: #444;
 }
 
-.topic_anchor ~ .topic_anchor {
-  margin-left: 40px;
-}
-
 .topic_img {
-  width: 300px;
-  height: 190px;
   object-fit: cover;
 }
 
@@ -117,23 +111,42 @@
 }
 
 .recommend_list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 220px 220px;
   gap: 30px 30px;
+  margin: 0;
   padding: 0 25px;
   list-style: none;
 }
 
 .recommend_item {
-  width: 450px;
-  height: 220px;
   border: 5px solid white;
 }
 
+.recommend_item-anchor {
+  position: relative;
+}
+
 .recommend_item-img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
+}
+
+.recommend_copy {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  z-index: 1;
+  color: white;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-shadow: 1px 1px 2px #444;
+}
+
+.recommend_subcopy {
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .info {
