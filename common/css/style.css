@@ -16,6 +16,7 @@ main {
 p {
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 dl {
@@ -43,14 +44,39 @@ a {
   user-select: none;
 }
 
-p {
+small {
   user-select: none;
 }
 
-small {
+button {
+  user-select: none;
+}
+
+span {
+  user-select: none;
+}
+
+div {
   user-select: none;
 }
 
 .anchor-off {
   pointer-events: none;
+}
+
+.section_text-title {
+  margin: 0;
+  padding-top: 32px;
+  text-align: center;
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+
+.section_text-title_en {
+  margin: 0 auto 26px auto;
+  width: 150px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 2;
+  border-top: 1px solid #444;
 }
