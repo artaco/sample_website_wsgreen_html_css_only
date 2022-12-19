@@ -13,89 +13,85 @@
 </head>
 <body>
   <header>
-    <div class="hero">
-      <img src="images/hero_image.jpg" width="1425" height="550" alt="WSGreen" class="hero_img-bg">
-      <p class="hero_text-copy">美味しさと安心を</p>
-      <p class="hero_text-subcopy">旬の採れたて無農薬野菜をお届けします</p>
-      <h1 class="hero_text-title">WSGreen</h1>
-    </div>
     <nav class="gmenu">
       <div class="gmenu_container">
-        <p class="gmenu_text-title">WSGreen</p>
+        <a class="gmenu_text-title" href="/">WSGreen</a>
         <ul class="gmenu_list">
           <li class="gmenu_item"><a href="#" class="gmenu_item-anchor anchor-off">入会方法</a></li>
-          <li class="gmenu_item"><a href="otameshi" class="gmenu_item-anchor">お試しセット</a></li>
+          <li class="gmenu_item"><a href="../otameshi" class="gmenu_item-anchor">お試しセット</a></li>
           <li class="gmenu_item"><a href="#" class="gmenu_item-anchor anchor-off">WSGreenについて</a></li>
-          <li class="gmenu_item"><a href="contact" class="gmenu_item-anchor anchor-off">お問い合わせ</a></li>
+          <li class="gmenu_item"><a href="../contact" class="gmenu_item-anchor anchor-off">お問い合わせ</a></li>
         </ul>
         <button class="gmenu_btn-login" disabled>ログイン</button>
       </div>
     </nav>
+    <div class="hero">
+      <img src="../common/images/frame_of_vegetables.jpg" width="1425" height="368" alt="WSGreen" class="hero_img-bg">
+      <div class="hero_container">
+        <div class="hero_text-bg">
+          <p class="hero_text-first">初めての方限定</p>
+          <p class="hero_text-copy">旬の野菜をたっぷりつめこみました</p>
+          <p class="hero_text-title">大満足お試しセット</p>
+        </div>
+      </div>
+    </div>
   </header>
   <main>
-    <div class="topic">
-      <a href="#" class="topic_anchor anchor-off">
-        <img src="images/farmer.jpg" width="300" height="190" alt="農家さんの声" class="topic_img">
-        <p class="topic_text-title">農家さんの声</p>
-        <p class="topic_text-message">丁寧に、かつこだわって作っている生産者の思いをぜひ感じてください。</p>
-      </a>
-      <a href="hazimete" class="topic_anchor">
-        <img src="common/images/parent_and_child.jpg" width="300" height="190" alt="初めての方へ" class="topic_img">
-        <p class="topic_text-title">初めての方へ</p>
-        <p class="topic_text-message">有機野菜にこだわり、他では手に入らない食材をWSGreenが自信を持ってお届けします</p>
-      </a>
-      <a href="otameshi" class="topic_anchor">
-        <img src="common/images/vegetable.jpg" width="300" height="190" alt="お試しセット" class="topic_img">
-        <p class="topic_text-title">お試しセット</p>
-        <p class="topic_text-message">【初めての方限定！】旬の野菜を詰め込んだセットをお申し込みから３日以内にお届け</p>
-      </a>
+    <div class="price">
+      <div class="price_container">
+        <img src="../common/images/free_shipping.png" width="100" height="100" alt="大満足お試しセット" class="price_delivery-img">
+        <span class="price_delivery-price">
+          １,９８０
+          <span class="price_delivery-yen">円</span>
+          <span class="price_delivery-tax">（税込）</span>
+          </span>
+        </span>
+      </div>
+      <button class="price_btn">お試しセットを注文する</button>
     </div>
     <div class="recommend">
-      <h2 class="section_text-title">今月のオススメ</h2>
-      <p class="section_text-title_en">monthly_recommend</p>
-      <nav class="recommend_banner">
-        <ul class="recommend_list">
-          <li class="recommend_item">
-            <a href="#" class="recommend_item-anchor anchor-off">
-              <img src="images/sweetpotato.jpg" width="440" height="210" alt="ほっくほくの甘いさつまいも" class="recommend_item-img">
-              <p class="recommend_copy"><small class="recommend_subcopy">ほっくほくの甘い</small><br>さつまいも</p>
-            </a>
-          </li>
-          <li class="recommend_item">
-            <a href="#" class="recommend_item-anchor anchor-off">
-              <img src="common/images/kyoho.jpg" width="440" height="210" alt="驚くほどの大粒巨峰" class="recommend_item-img">
-              <p class="recommend_copy"><small class="recommend_subcopy">驚くほどの大粒 </small>巨峰</p>
-            </a>
-          </li>
-          <li class="recommend_item">
-            <a href="#" class="recommend_item-anchor anchor-off">
-              <img src="images/soup.jpg" width="440" height="210" alt="ボリューム満点じゃがいも主役キット" class="recommend_item-img">
-              <p class="recommend_copy"><small class="recommend_subcopy">ボリューム満点</small><br>じゃがいも主役キット</p>
-            </a>
-          </li>
-          <li class="recommend_item">
-            <a href="#" class="recommend_item-anchor anchor-off">
-              <img src="images/smoothies.jpg" width="440" height="210" alt="栄養素満点今月のスムージー" class="recommend_item-img">
-              <p class="recommend_copy"><small class="recommend_subcopy">栄養素満点</small><br>今月のスムージー</p>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div class="recommend_container recommend_container-kyoho">
+        <img src="../common/images/kyoho.jpg" width="980" height="100" alt="驚くほどの大粒巨峰" class="recommend_img-bg">
+        <section class="recommend_text recommend_text-kyoho">
+          <h2 class="recommend_text-copy"><small class="recommend_text-subcopy">驚くほどの大粒</small>巨峰</h2>
+          <p class="recommend_text-message">長野県産の大粒種なし巨峰です。<br>皮をむいている段階から、汁がしたたるほど、<br>みずみずしく、糖度10以上でとても甘いです。</p>
+        </section>
+        <img src="images/cutout_of_kyoho.png" width="360" height="" alt="巨峰" class="recommend_img-kyoho">
+      </div>
+      <div class="recommend_container recommend_container-smoothes">
+        <img src="../common/images/smoothies.jpg" width="980" height="100" alt="驚くほどの大粒巨峰" class="recommend_img-bg">
+        <section class="recommend_text recommend_text-smoothes">
+          <h2 class="recommend_text-copy"><small class="recommend_text-subcopy">栄養素満点</small>スムージー</h2>
+          <p class="recommend_text-message">大人気の今月のスムージーは、清涼感たっぷり！<br>みかんの甘みと、キウイのさっぱり感がベストマッチ。<br>じゃがいもが入ることで、しっかりと伸びごたえがあります。朝食や置き換えダイエットに。</p>
+        </section>
+        <div class="reccomend_materiel">
+          <p class="reccomend_text-desc"><small class="reccomend_text-name">みずみずしい</small>キウイ</p>
+          <img src="images/kiwi.png" width="300" height="" alt="キウイ" class="recommend_img-kiwi">
+          <p class="reccomend_text-desc"><small class="reccomend_text-name">糖度10以上の甘い</small>みかん</p>
+          <img src="images/orange.png" width="300" height="" alt="みかん" class="recommend_img-orange">
+          <p class="reccomend_text-desc"><small class="reccomend_text-name">ほっくほくの甘い</small>じゃがいも</p>
+          <img src="images/potato.png" width="300" height="" alt="じゃがいも" class="recommend_img-potate">
+        </div>
+        <p class="recommend_text-supplement">その他に<span class="recommend_text-color">12種類</span>の野菜をランダムにお入れいたします</p>
+      </div>
     </div>
+    <div class="price">
+      <div class="price_container">
+        <img src="../common/images/free_shipping.png" width="100" height="100" alt="大満足お試しセット" class="price_delivery-img">
+        <span class="price_delivery-price">
+          １,９８０
+          <span class="price_delivery-yen">円</span>
+          <span class="price_delivery-tax">（税込）</span>
+          </span>
+        </span>
+      </div>
+      <button class="price_btn">お試しセットを注文する</button>
     </div>
-    <div class="info">
-      <h2 class="section_text-title">お知らせ</h2>
-      <p class="section_text-title_en">news</p>
-      <dl class="info_list">
-        <dt class="info_item-date">201X年05月10日</dt>
-        <dd class="info_item-title">お友達紹介キャンペーン実施中</dd>
-        <dt class="info_item-date">201X年04月30日</dt>
-        <dd class="info_item-title">旬のオススメ野菜更新しました</dd>
-        <dt class="info_item-date">201X年04月25日</dt>
-        <dd class="info_item-title">新しい農家さんが加わりました</dd>
-        <dt class="info_item-date">201X年04月20日</dt>
-        <dd class="info_item-title">WSGreen Instagram公式アカウント　開設しました</dd>
-      </dl>
+    <div class="banner">
+      <img src="images/smoothie_and_fruits.jpg" width="900" height="200" alt="" class="banner_img">
+      <div class="banner_text">
+        <p class="banner_text-title"><small class="banner_text-subtitle">今月のスムージー</small>おまけレシピ付き</p>
+      </div>
     </div>
   </main>
   <div class="backtotop"><div class="backtotop_arrow"></div></div>   
@@ -106,7 +102,7 @@
         <li class="fmenu_item"><a href="#" class="fmenu_item-anchor anchor-off">採用情報</a></li>
         <li class="fmenu_item"><a href="#" class="fmenu_item-anchor anchor-off">食べ物の安全に関して</a></li>
         <li class="fmenu_item"><a href="#" class="fmenu_item-anchor anchor-off">ご利用ガイド</a></li>
-        <li class="fmenu_item"><a href="contact" class="fmenu_item-anchor anchor-off">お客様窓口（お問い合わせ）</a></li>
+        <li class="fmenu_item"><a href="#" class="fmenu_item-anchor anchor-off">お客様窓口（お問い合わせ）</a></li>
       </ul>
     </nav>
     <small class="copyright">Copyright © 201X WSGreen Co.,Ltd. All Rights Reserved.</small>
