@@ -2,7 +2,7 @@
 
 こちらは、ポートフォリオのリポジトリになります。
 
-本ポートフォリオは、Web 制作において基本の知識である HTML/CSS のみを使用したシンプルな Web サイトです。
+本ポートフォリオは、Web 制作において基本の知識である HTML/CSS のみを使用したシンプルな、PC 版 Web サイトです。
 
 Web サイトののカンプや素材は[ウェブスタッフ](https://www.webstaff.jp/)様で提供されているものを使用しました。
 
@@ -13,7 +13,17 @@ Web サイトののカンプや素材は[ウェブスタッフ](https://www.webs
 
 ---
 
-## 本ポートフォリオの要件
+## 開発環境
+
+macOS Big Sur ver 11.7
+Chrome ver 108
+Visual Studio Code ver 1.74.0
+Affinity Photo ver 1.10.6
+Affinity Designer ver 1.10.6
+
+## 要件
+
+課題資料に記載されている仕様は以下のとおり
 
 ### コンセプト
 
