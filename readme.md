@@ -88,3 +88,29 @@ InternetExplore 10 / InternetExplore 11 / Edge、Firefox(最新版)、Chrome(最
 - タグは全て小文字で記述
 - インデント方法は、サイトごとに統一する(タブを使用し、タブの大きさは半角スペース 2 文字を推奨)
 - 本文中には適度にコメントタグを使用し、構造がわかるようにする
+
+---
+
+## パフォーマンス
+
+### PageSpeed Insights
+
+[PageSpeed Insights](https://pagespeed.web.dev/)による PC での表示速度測定結果（モバイル未対応のため）
+
+![PageSpeed Insights](images/pagespeed.png)
+
+### CSS CODE QUALITY
+
+[CSS CODE QUALITY](https://www.projectwallace.com/css-code-quality)による CSS の評価
+
+#### トップページ
+
+![CSS CODE QUALITY / TOP](images/css_code_quality_top.png)
+
+#### 初めての方へ
+
+![CSS CODE QUALITY / OTHER](images/css_code_quality_other.png)
+
+#### お試しセット
+
+![CSS CODE QUALITY / OTHER](images/css_code_quality_other.png)
